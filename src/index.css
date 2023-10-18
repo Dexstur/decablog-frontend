@@ -1,0 +1,26 @@
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark-card {
+  background-color: #001011 !important ;
+  color: #fff !important ;
+}
+
+.dark-body {
+  background-color: #4f6d7a !important ;
+}
+.dark-footer {
+  background-color: #141314 !important ;
+  color: #fff !important ;
+}
