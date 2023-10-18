@@ -9,7 +9,7 @@ const myApi = axios.create({
   baseURL,
   withCredentials: true,
 })
-console.log(VITE_APP_NODE_ENV)
+// console.log(VITE_APP_NODE_ENV)
 myApi.interceptors.request.use((config) => {
   const token = localStorage.getItem('blogtoken')
   if (token) {
